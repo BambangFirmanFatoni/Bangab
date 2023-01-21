@@ -1,0 +1,165 @@
+<html>
+<title>Pendeskripsian Sebuah Games</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<body>
+	<script>
+		function openKota(namakota) {
+		var i;
+		var x = document.getElementsByClassName("kota");
+		for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none"; 
+		}
+		document.getElementById(namakota).style.display = "block"; 
+		}
+	</script>
+
+	<div class="w3-container w3-display-container" style="background-repeat: no-repeat; background-size: cover; background-image: url('images/CoffeeTalkCut.jpg'); color: black; width: 100%; height: 150px;">
+		<h2 class="w3-display-middle w3-text-white"> Penjelasan Beberapa Games Dari 3 Developer/Publisher </h2>
+	</div>
+
+	
+	<div class="w3-bar w3-khaki">
+		<button class="w3-bar-item w3-button" onclick="openKota('Welcome')">Home</button>
+		<div class='w3-dropdown-hover'>
+			<button class='w3-button'> Rockstar Games </button>
+				<div class='w3-dropdown-content w3-bar-block w3-card-4'>
+					<button class="w3-bar-item w3-button" onclick="openKota('GTA V')"> Grand Theft Auto V </button>
+					<button class="w3-bar-item w3-button" onclick="openKota('RDR 2')"> Red Dead Redemtion 2 </button>
+					<button class="w3-bar-item w3-button" onclick="openKota('GTA SA')"> Grand Theft Auto: San Andreas </button>
+				</div>
+		</div>
+		<div class='w3-dropdown-hover'>
+			<button class='w3-button'> Electronic Arts </button>
+				<div class='w3-dropdown-content w3-bar-block w3-card-4'>
+					<button class="w3-bar-item w3-button" onclick="openKota('NFS')"> Need For Speed: Most Wanted </button>
+					<button class="w3-bar-item w3-button" onclick="openKota('StarWars')"> Star Wars Jedi: Fallen Order </button>
+					<button class="w3-bar-item w3-button" onclick="openKota('FIFA')"> Fifa 22 </button>
+				</div>
+		</div>
+		<div class='w3-dropdown-hover'>
+			<button class='w3-button'> Toge Productions </button>
+				<div class='w3-dropdown-content w3-bar-block w3-card-4'>
+					<button class="w3-bar-item w3-button" onclick="openKota('CT')"> Coffee Talk </button>
+					<button class="w3-bar-item w3-button" onclick="openKota('STU')"> A Space for the Unbound </button>
+					<button class="w3-bar-item w3-button" onclick="openKota('WTPWA')"> When the Past was Around </button>
+				</div>
+		</div>
+		<button class="w3-bar-item w3-button" onclick="openKota('Spin')">Bonus</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Me')">About Me</button>
+	</div>
+
+	<div id='Welcome' class='w3-container kota' style='display:none'>
+		<center>
+		<p>
+		<h2> Wilujeng Sumping/Selamat datang </h2> 
+		<hr> Diajar Animate dan Menu
+	</div>
+	
+	
+	<div id="GTA V" class="w3-container kota w3-animate-top" style="display:none">
+		<h2> Grand Theft Auto V </h2>
+		<img src='images/Grand_Theft_Auto_V.jpg'>
+		<p> Grand Theft Auto V (GTA 5) adalah permainan aksi-petualangan 2013 yang dikembangkan oleh Rockstar North dan diterbitkan oleh Rockstar Games. 
+			Ini adalah entri utama pertama dalam seri Grand Theft Auto sejak 2008 Grand Theft Auto IV. Berlatar di dalam negara bagian fiksi San Andreas, 
+			yang berbasis di California Selatan, kisah pemain tunggal mengikuti tiga kriminal dan upaya mereka untuk melakukan pencurian sementara di bawah tekanan dari agen pemerintah dan tokoh-tokoh kejahatan yang kuat. 
+			Desain dunia terbuka memungkinkan pemain bebas berkeliaran di pedesaan terbuka San Andreas dan kota fiksi Los Santos, yang berbasis di Los Angeles, Amerika Serikat.
+		</p>
+	</div>
+	
+	<div id="RDR 2" class="w3-container kota w3-animate-bottom" style="display:none">
+		<h2> Red Dead Redemtion 2 </h2>
+		<img src='images/rdr2.jpg' width="50%">
+		<p> Red Dead Redemption 2 adalah permainan video aksi-penjelajahan tahun 2018 yang dikembangkan dan diterbitkan oleh Rockstar Games. Game ini adalah entri ketiga dalam seri Red Dead dan merupakan prekuel dari game 
+			Red Dead Redemption tahun 2010. Ceritanya berlatar pada tahun 1899 dalam representasi fiksi dari Amerika Serikat Barat, Midwest, dan Selatan dan berpusat pada Arthur Morgan, seorang pelanggar hukum dan anggota geng Van der Linde. 
+			Arthur harus menghadapi kemunduran Wild West sambil mencoba bertahan melawan pasukan pemerintah, geng rival, dan musuh-musuh lainnya. Cerita game ini juga berpusat pada sesama anggota geng John Marston, protagonis dari Red Dead Redemption yang pertama.
+			Game ini disajikan melalui perspektif kamera orang pertama dan ketiga, dan pemain dapat bebas menjelajah dalam dunia terbuka yang interaktif. Elemen-elemen gameplay termasuk tembak-menembak, perampokan, berburu, menunggang kuda, berinteraksi dengan karakter non-pemain, 
+			dan mempertahankan peringkat kehormatan karakter melalui pilihan dan perbuatan moral. Sistem buronan yang mirip dengan sistem "wanted" dari seri Grand Theft Auto mengatur respons penegak hukum dan para pemburu bayaran atas kejahatan yang dilakukan oleh pemain.
+		</p>
+	</div>
+	
+	<div id="GTA SA" class="w3-container kota w3-animate-left" style="display:none">
+		<h2> Grand Theft Auto: San Andreas </h2>
+		<img src='images/GTASA.jpg'>
+		<p> Grand Theft Auto: San Andreas (sering disingkat sebagai GTA: SA atau GTA: San Andreas), adalah permainan video laga-petualangan yang dikembangkan oleh Rockstar North, dan diterbitkan oleh Rockstar Games. 
+			Permainan ini adalah permainan 3D ke-7 dalam seri Grand Theft Auto, yang ke-5 pada rilis konsol dan permainan ke-7 secara keseluruhan. Pada awalnya dirilis untuk PlayStation 2 pada bulan Oktober 2004, 
+			permainan ini kemudian di pemortakan ke Xbox dan Microsoft Windows, kini yang baru rilis Android dan menerima penerimaan dan penjualan yang tinggi pada tiga platform tersebut, dan mendapat rekor penjualan 
+			permainan tertinggi di PlayStation 2. Grand Theft Auto: San Andreas diteruskan oleh Grand Theft Auto: Liberty City Stories dan didahului oleh Grand Theft Auto: Vice City.
+		</p>
+	</div>
+	
+	<div id="NFS" class="w3-container kota w3-animate-right" style="display:none">
+		<h2> Need For Speed: Most Wanted </h2>
+		<img src='images/NFS.jpg'>
+		<p> Need for Speed: Most Wanted (NFS:MW) adalah permainan balapan multiplatform yang dikembangkan oleh EA Black Box dan pertama kali dirilis oleh 
+			Electronic Arts di Amerika Serikat pada 15 November 2005. 
+			Permainan ini merupakan bagian dari serial Need for Speed.
+		</p>
+	</div>
+	
+	<div id="StarWars" class="w3-container kota w3-animate-opacity" style="display:none">
+		<h2> Star Wars Jedi: Fallen Order </h2>
+		<img src='images/StarWars.jpg' width="20%">
+		<p> Star Wars Jedi: Fallen Order adalah game aksi-petualangan 2019 yang dikembangkan oleh Respawn Entertainment dan diterbitkan oleh Electronic Arts. 
+			Ceritanya berlatarkan alam semesta Star Wars, lima tahun setelah Star Wars: Episode III - Revenge of the Sith.
+		</p>
+	</div>
+
+	<div id="FIFA" class="w3-container kota w3-animate-zoom" style="display:none">
+		<h2> FIFA 22 </h2>
+		<img src='images/FIFA.jpg'>
+		<p> FIFA 22 adalah permainan simulasi video game bertema sepak bola yang akan datang dan diterbitkan oleh Electronic Arts sebagai bagian dari FIFA seri. 
+			Ini akan menjadi bagian ke-29 dalam seri FIFA, dan permainan Sepak bola ini bermultiplatform.</p>
+	</div>
+
+	<div id="CT" class="w3-container kota w3-animate-fading" style="display:none">
+		<h2> Coffee Talk </h2>
+		<img src='images/CoffeeTalk.jpg' width="50%">
+		<p> Coffee Talk adalah novel visual, dan dengan demikian, gameplay-nya sebagian besar terdiri dari dialog membaca. Dialog ini secara berkala dipecah oleh 
+			permainan mini di mana pemain menyeduh berbagai minuman menggunakan bahan-bahan di kedai kopi. Minuman tertentu memberi pemain pilihan untuk membuat seni latte.
+		</p>
+	</div>
+
+	<div id="STU" class="w3-container kota w3-animate-zoom" style="display:none">
+		<h2>A Space for the Unbound</h2>
+		<img src='images/A_Space_for_the_Unbound.jpg' width="50%">
+		<p >A Space for the Unbound merupakan game petualangan yang menceritakan dua karakter, Atma dan Raya sebagai anak SMA yang ingin 
+			menyelidiki misteri kota mereka dengan latar belakang Indonesia pada dekade 90-an.
+		</p>
+	</div>
+
+	<div id="WTPWA" class="w3-container kota w3-animate-opacity" style="display:none">
+		<h2>When the Past was Around</h2>
+		<img src='images/When_The_Past_Was_Around.jpg' width="50%">
+		<p> When the Past was Around berkisah tentang seorang perempuan muda bernama Eda sebagai karakter utama, 
+			yang tengah ingin mencari tahu misteri masa lalunya bersama karakter pria berwajah burung hantu, The Owl. 
+			Seperti nama gamenya, When the Past was Around atau dalam bahasa Indonesia berarti "Saat masa lalu ada di sekitar", 
+			pencarian misteri masa lalu Eda dengan The Owl dilakukan melalui benda-benda kenangan yang berada di latar sekitarnya.
+		</p>
+	</div>
+	
+	<div id="Spin" class="w3-container kota" style="display:none">
+		<center>
+		<h2> Reza Kecap Muter</h2>
+		<br>
+
+		<img src='images/RezaKecap.jpg' class='w3-spin'>
+		<br>
+		<br>
+		<br>
+		<br>
+		<b><p class='w3-clock-spin'>JUGJGUGJUGJGUJGUGJUGJUG</p></b>
+	</div>
+
+	<div id='Me' class='w3-container kota w3-animate-zoom' style='display:none'>
+		<center>
+		<h2> Pembuat : Bambang Firman Fatoni </h2> 
+		<p> NIM : 10122027 </p>
+		<p> Kelas : IF-1 </p>
+		<br> <br> <br>
+		<img src="images/RezaKecap.jpg">
+		<p> Bukan Bukan, Bukan Foto Diri Saya Inima</p>
+	</div>
+	
+</body>
+</html>
